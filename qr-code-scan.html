@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="qr-code-scan.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="profile">
+        <img class="user-icon" alt="" src="images/user.png" />
+
+        <div class="notif-icon">
+          <img
+            class="notification-icon"
+            alt=""
+            src="images/notification.png"
+          />
+
+          <div class="notif-eclipse"></div>
+          <div class="div">2</div>
+        </div>
+      </div>
+
+
+    
+
+    <div class="qr-group2">
+        <div class="qr-eclipse2"></div>
+        <div class="scan-qr2">Scan QR</div>
+        <img class="qr-icon2" alt="" src="images/qr.png" />
+      </div>
+
+      <div class="image-container">
+        <img class="imageOne" alt="" src="images/bg dashboard.png" />
+        <img class="imageTwo" alt="" src="images/Rectangle 75.png" />
+        <img class="imageThree" alt="" src="images/QR Code 1.png" />
+        <img class="imageFour" alt="" src="images/X.png" id="back"/>
+      </div>
+      
+      <script>
+        var cross = document.getElementById("back");
+            if (cross) {
+                cross.addEventListener("click", function (e) {
+                window.location.href = "create-a-booking-tables.html";
+                });
+            }
+      </script>
+</body>
+</html>
